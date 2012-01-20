@@ -7,7 +7,8 @@ argc = len(argvs)
 if (argc != 3):
   quit()
 f = fontforge.open(argvs[1])
-version = datetime.date.today().isoformat().replace('-','')
+today = datetime.date.today()
+version = str(today.year - 2000) + '.' + str((today - datetime.date(today.year, 1, 1)).days)
 f.version = version
 f.sfnt_names = f.sfnt_names + (('Japanese', 'Version', 'Version ' + version),)
 for x in [('English (US)', 'LICENSE'), ('Japanese', 'LICENSE.ja'),]:
