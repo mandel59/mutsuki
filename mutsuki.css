@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Mutsuki";
+  font-weight: 500;
+  src: url("Mutsuki.woff") format("woff"), url("Mutsuki.ttf") format("truetype");
+}
+
+body {
+  font-family: "Mutsuki", "Hoefler Text", "Linux Libertine O", serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin: auto;
+  max-width: 40em;
+  text-align: center;
+  background: #edb;
+  text-shadow: 0 -0.125px 0.125px #765;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2em;
+  text-shadow: 0 -0.5px 0.5px #765;
+}
