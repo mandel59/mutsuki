@@ -20,3 +20,8 @@ h1 {
   font-size: 2em;
   text-shadow: 0 -0.5px 0.5px #765;
 }
+#altlang li {
+  display: inline-block;
+  margin: 0 0.2em;
+}
+
