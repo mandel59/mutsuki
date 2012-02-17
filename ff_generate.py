@@ -18,5 +18,6 @@ for x in [('English (US)', 'LICENSE'), ('Japanese', 'LICENSE.ja'),]:
   except IOError, (errno, strerror):
     print 'cannot open ' + x[1]
 
+f.hasvmetrics = True
 f.generate(argvs[2], '', ('short-post','opentype'))
 
