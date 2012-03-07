@@ -23,7 +23,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1190148620
-ModificationTime: 1331114179
+ModificationTime: 1331114579
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -58,7 +58,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 16 16 3
+WinInfo: 0 16 3
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2025,16 +2025,15 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-624 494 m 9
- 550 515 l 25
+612 490 m 9
+ 544 526 l 25
  572 472 l 17
- 590 480 605 484 624 494 c 9
+ 588 478 598 484 612 490 c 9
 332 756 m 0
  386 756 422 719 476 632 c 1
  534 639 574 630 574 608 c 0
- 574 583 549 563 533 554 c 9
- 539 543 l 17
- 600 522 737 536 737 497 c 0
+ 574 583 554 570 537 558 c 1
+ 658 508 737 546 737 497 c 1
  737 463 681 432 620 405 c 1
  669 308 704 270 704 250 c 0
  704 200 670 154 653 154 c 0
