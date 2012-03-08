@@ -18,6 +18,10 @@ h1 {
   font-weight: 500;
   font-size: 1.5em;
 }
+h2 {
+  font-weight: 500;
+  font-size: 1.28em;
+}
 #altlang li {
   display: inline-block;
   margin: 0 0.2em;
