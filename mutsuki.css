@@ -11,14 +11,12 @@ body {
   margin: auto;
   max-width: 40em;
   text-align: center;
-  background: #edb;
-  text-shadow: 0 -0.125px 0.125px #765;
+  background: #fec;
 }
 h1 {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 2em;
-  text-shadow: 0 -0.5px 0.5px #765;
+  font-size: 1.5em;
 }
 #altlang li {
   display: inline-block;
