@@ -10,6 +10,7 @@ body {
   font-size: 18px;
   margin: auto;
   max-width: 40em;
+  line-height: 1.28em;
   text-align: center;
   background: #fec;
 }
@@ -21,6 +22,10 @@ h1 {
 h2 {
   font-weight: 500;
   font-size: 1.28em;
+}
+#altlang {
+  margin: 0;
+  padding: 0;
 }
 #altlang li {
   display: inline-block;
