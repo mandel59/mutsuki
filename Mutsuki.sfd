@@ -57,7 +57,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 16 16 3
+WinInfo: 528 16 3
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -120566,7 +120566,7 @@ Validated: 1
 EndChar
 
 StartChar: uni30C8_uni309A.liga
-Encoding: 550 62476 575
+Encoding: 550 -1 575
 Width: 1000
 Flags: W
 HStem: 284 170<492 604> 418 36<461.468 498.302> 515 40<671.336 750.664> 655 40<671.336 750.664>
@@ -120802,7 +120802,7 @@ Validated: 1
 EndChar
 
 StartChar: uni304D_uni309A.liga
-Encoding: 549 62465 578
+Encoding: 549 -1 578
 Width: 1000
 Flags: W
 HStem: -9 94<365.081 567.945> 225 35<381.702 549.276> 366 58<336.19 505.221> 544 68<362.331 437.109> 580 40<695.336 774.664> 702 54<295.545 387.055> 720 40<695.336 774.664>
@@ -120811,7 +120811,6 @@ LayerCount: 2
 Fore
 Refer: 91 12442 S 1 0 0 1 917 -4 2
 Refer: 16 12365 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'liga' +ahluljBuVAhbVwAA in +XnNO7lQNMGhyR07uVA0A lookup 3-1" uni304D uni309A
 EndChar
 
@@ -121045,7 +121044,7 @@ Validated: 1
 EndChar
 
 StartChar: uni304B_uni309A.liga
-Encoding: 548 62464 581
+Encoding: 548 -1 581
 Width: 1000
 Flags: W
 HStem: 56 98<344.785 414.65> 398 76<165.557 276.193> 503 51<367.84 452.916> 555 40<775.336 854.664> 695 40<775.336 854.664>
@@ -121054,7 +121053,6 @@ LayerCount: 2
 Fore
 Refer: 91 12442 N 1 0 0 1 997 -29 2
 Refer: 14 12363 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'liga' +ahluljBuVAhbVwAA in +XnNO7lQNMGhyR07uVA0A lookup 3-1" uni304B uni309A
 EndChar
 
