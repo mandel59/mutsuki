@@ -13,7 +13,6 @@ Descent: 140
 LayerCount: 2
 Layer: 0 0 "+gMyXYgAA"  1
 Layer: 1 0 "+Uk2XYgAA"  0
-NeedsXUIDChange: 1
 XUID: -1
 BaseHoriz: 2 'ideo' 'romn'
 BaseScript: 'hani' 0  0 200
@@ -23,7 +22,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1190148620
-ModificationTime: 1331285165
+ModificationTime: 1331285632
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -43,6 +42,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 1 0 0 "'cv01' Character Variants 01 lookup 5"  {"'cv01' Character Variants 01 lookup 5-1"  } ['cv01' ('DFLT' <'dflt' > 'hani' <'JAN ' 'dflt' > 'kana' <'JAN ' 'dflt' > ) ]
 Lookup: 4 0 1 "'liga' +ahluljBuVAhbVwAA in +XnNO7lQNMGhyR07uVA0A lookup 3"  {"'liga' +ahluljBuVAhbVwAA in +XnNO7lQNMGhyR07uVA0A lookup 3-1"  } ['ccmp' ('kana' <'JAN ' 'dflt' > ) 'liga' ('kana' <'JAN ' 'dflt' > ) ]
 Lookup: 1 0 0 "'aalt' +MFkweTBmMG51cE9TW1cweDBuMKIwrzC7MLkA lookup 0"  {"'aalt' +MFkweTBmMG51cE9TW1cweDBuMKIwrzC7MLkA lookup 0-1"  } ['aalt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > 'math' <'dflt' > 'thai' <'dflt' > ) ]
 Lookup: 1 0 0 "'vert' +fiZm+DBNW1dfYjAQXsNrYjAR lookup 1"  {"'vert' +fiZm+DBNW1dfYjAQXsNrYjAR lookup 1-1"  } ['vert' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'JAN ' 'dflt' > 'kana' <'JAN ' 'dflt' > 'latn' <'dflt' > ) ]
@@ -57,7 +57,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 528 16 3
+WinInfo: 16 16 3
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1239,6 +1239,7 @@ SplineSet
  415 655 381 697 381 719 c 4xfe
  381 741 385 757 404 757 c 4
 EndSplineSet
+Substitution2: "'cv01' Character Variants 01 lookup 5-1" u1B001
 EndChar
 
 StartChar: uni3049
@@ -1305,6 +1306,7 @@ SplineSet
  194 415 137 451 137 480 c 0
  137 495 142 502 154 502 c 0
 EndSplineSet
+Substitution2: "'cv01' Character Variants 01 lookup 5-1" uni304A.alt
 EndChar
 
 StartChar: uni304B
