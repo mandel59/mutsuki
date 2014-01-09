@@ -23,6 +23,11 @@ h2 {
   font-weight: 500;
   font-size: 1.28em;
 }
+h3 {
+  font-weight: 500;
+  font-size: 1em;
+  text-decoration: underline;
+}
 #altlang {
   margin: 0;
   padding: 0;
@@ -30,5 +35,14 @@ h2 {
 #altlang li {
   display: inline-block;
   margin: 0 0.2em;
+}
+.vert {
+  writing-mode: tb-rl;
+  -moz-writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  height: 13em;
+  text-align: justify;
+  text-justify: inter-ideograph;
 }
 
