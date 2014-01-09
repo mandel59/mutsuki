@@ -14,8 +14,8 @@ XUID: -1
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1389295185
-ModificationTime: 1389295241
+CreationTime: 1389296284
+ModificationTime: 1389296350
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -50,7 +50,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 105 15 6
+WinInfo: 525 15 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -117991,8 +117991,8 @@ EndChar
 StartChar: uni30FC.vert
 Encoding: 580 -1 529
 Width: 1000
-Flags: W
-VStem: 457 92<362.274 662.887> 472 56<21.1653 292.825>
+Flags: WO
+VStem: 457 92<348.274 648.887> 472 56<7.16526 278.825>
 LayerCount: 3
 Back
 SplineSet
@@ -118029,16 +118029,16 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-445 723 m 0x80
- 468 723 567 693 567 671 c 0
- 567 649 553 631 549 591 c 0x80
- 545 551 530 106 528 80 c 0
- 526 54 522 20 500 20 c 0
- 478 20 474 54 472 80 c 0x40
- 470 106 461.659179688 568.068359375 457 610 c 0
- 453 646 450 653 440 660 c 0
- 430 667 399 690 399 701 c 0
- 399 712 422 723 445 723 c 0x80
+445 709 m 0x80
+ 468 709 567 679 567 657 c 0
+ 567 635 553 617 549 577 c 0x80
+ 545 537 530 92 528 66 c 0
+ 526 40 522 6 500 6 c 0
+ 478 6 474 40 472 66 c 0x40
+ 470 92 461.659179688 554.068359375 457 596 c 0
+ 453 632 450 639 440 646 c 0
+ 430 653 399 676 399 687 c 0
+ 399 698 422 709 445 709 c 0x80
 EndSplineSet
 EndChar
 
