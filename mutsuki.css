@@ -17,6 +17,7 @@ html {
   font-size: 15pt;
   text-align: center;
   word-break: keep-all;
+  word-wrap: break-word;
   overflow-wrap: break-word;
 }
 
@@ -87,6 +88,7 @@ p:last-child {
   -moz-writing-mode: vertical-rl;
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
+  text-align: left;
   text-align: start;
 }
 
