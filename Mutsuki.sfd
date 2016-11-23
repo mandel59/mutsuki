@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1389377225
-ModificationTime: 1479900918
+ModificationTime: 1479902806
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -50,7 +50,7 @@ MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "Mutsuki" "Meduim"
 LangName: 1041 "Copyright (c) 2008-2011 Gutenberg Labo.+AAoA-Copyright (c) 2012 Ryusei Yamaguchi." "+MIAwZDBN" "Regular" "" "+MIAwZDBN" "" "" "" "" "" "" "" "" "" "" "" "+MIAwZDBN" "Medium"
-GaspTable: 2 0 10 65535 0 1
+GaspTable: 2 128 10 65535 0 1
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
