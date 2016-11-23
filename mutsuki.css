@@ -14,9 +14,10 @@ html {
   background: #fec;
   font-family: "Mutsuki", "Hoefler Text", "Linux Libertine O", "Yu Mincho", serif;
   font-weight: 600;
-  font-size: 16pt;
+  font-size: 15pt;
   text-align: center;
   word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 * {
@@ -53,6 +54,7 @@ h3 {
 
 dl, ul, ol {
   text-align: left;
+  overflow: auto;
 }
 
 p:first-child {
@@ -89,14 +91,11 @@ p:last-child {
 }
 
 .showcase {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  overflow: auto;
 }
 
 .showcase > * {
-  margin: 0 0 0.5rem;
+  margin: auto;
 }
 
 .sample {
