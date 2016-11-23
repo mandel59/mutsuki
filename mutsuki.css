@@ -1,49 +1,107 @@
 @font-face {
   font-family: "Mutsuki";
   font-weight: 500;
-  src: url("Mutsuki.woff") format("woff"), url("Mutsuki.ttf") format("truetype");
+  src: url("Mutsuki.woff2") format("woff2"), url("Mutsuki.woff") format("woff"), url("Mutsuki.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Adobe NotDef";
+  font-weight: normal;
+  src: url("AND-Regular.woff2") format("woff2"), url("AND-Regular.woff") format("woff"), url("AND-Regular.otf") format("opentype");
+}
+
+html {
+  background: #fec;
+  font-family: "Mutsuki", "Hoefler Text", "Linux Libertine O", "Yu Mincho", serif;
+  font-weight: 500;
+  font-size: 16pt;
+  text-align: center;
+  word-break: keep-all;
+}
+
+* {
+  line-height: 1.75em;
 }
 
 body {
-  font-family: "Mutsuki", "Hoefler Text", "Linux Libertine O", serif;
-  font-weight: 500;
-  font-size: 18px;
   margin: auto;
-  max-width: 40em;
-  line-height: 1.28em;
-  text-align: center;
-  background: #fec;
+  max-width: 24rem;
 }
+
 h1 {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 2em;
 }
+
+h1 ruby {
+  ruby-align: center;
+  ruby-position: under;
+}
+
+h1 ruby > rt {
+  font-size: 0.4em;
+}
+
 h2 {
   font-weight: 500;
-  font-size: 1.28em;
+  font-size: 1.5em;
 }
+
 h3 {
   font-weight: 500;
   font-size: 1em;
   text-decoration: underline;
 }
+
+dl, ul, ol {
+  text-align: left;
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
 #altlang {
-  margin: 0;
+  text-align: center;
+  margin: 0.5em;
   padding: 0;
 }
+
 #altlang li {
   display: inline-block;
-  margin: 0 0.2em;
+  margin: 0 0.5em;
 }
+
+.alt {
+  font-feature-settings: 'cv01';
+  -moz-font-feature-settings: 'cv01';
+  -webkit-font-feature-settings: 'cv01';
+}
+
 .vert {
   writing-mode: tb-rl;
   -moz-writing-mode: vertical-rl;
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
-  height: 13em;
-  text-align: justify;
-  text-justify: inter-ideograph;
-  margin: auto;
+  text-align: start;
 }
 
+.showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.showcase > * {
+  margin: 0 0 0.5rem;
+}
+
+.sample {
+  font-family: "Mutsuki", "Adobe NotDef", sans-serif;
+}
