@@ -30,9 +30,22 @@ body {
   max-width: 24rem;
 }
 
+header {
+  margin: 1rem 0 0;
+}
+
+main {
+  margin: 1rem 0;
+}
+
+footer {
+  margin: 0 0 1rem;
+}
+
 h1 {
-  text-transform: uppercase;
   font-size: 2em;
+  margin: 0 0 0.5em;
+  text-transform: uppercase;
 }
 
 h1 ruby {
@@ -58,12 +71,12 @@ dl, ul, ol {
   overflow: auto;
 }
 
-p:first-child {
-  margin-top: 0;
+p {
+  margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
+p + p {
+  margin: 1em 0 0;
 }
 
 #altlang {
