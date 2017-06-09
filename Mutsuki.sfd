@@ -58,7 +58,7 @@ NameList: Adobe Glyph List
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 132 11 4
+WinInfo: 583 11 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1238,7 +1238,7 @@ SplineSet
  137 495 142 502 154 502 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "'cv01' Character Variants 01 lookup 5-1" uni304A.alt
+Substitution2: "'cv01' Character Variants 01 lookup 5-1" u1B015
 EndChar
 
 StartChar: uni304B
@@ -15237,7 +15237,7 @@ EndChar
 StartChar: uni30C0
 Encoding: 12480 12480 127
 Width: 1000
-Flags: HMWO
+Flags: HMW
 LayerCount: 3
 Back
 SplineSet
@@ -122569,8 +122569,8 @@ Substitution2: "'vrt2' +fiZm+DBNW1dfYjBoVt6O4m4IMH9lh1tX lookup 2-1" uni3002.ver
 Substitution2: "'vert' +fiZm+DBNW1dfYjAQXsNrYjAR lookup 1-1" uni3002.vert
 EndChar
 
-StartChar: uni304A.alt
-Encoding: 1114157 -1 596
+StartChar: u1B015
+Encoding: 110613 110613 596
 Width: 1000
 Flags: HMW
 LayerCount: 3
