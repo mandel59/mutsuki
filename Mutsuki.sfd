@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1389377225
-ModificationTime: 1497026168
+ModificationTime: 1497099650
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -58,7 +58,7 @@ NameList: Adobe Glyph List
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 44 11 4
+WinInfo: 11 11 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1180,7 +1180,6 @@ Flags: HMW
 LayerCount: 3
 Fore
 Refer: 13 12362 N 0.86 0 0 0.86 70 -20 2
-Validated: 1
 Substitution2: "'vrt2' +fiZm+DBNW1dfYjBoVt6O4m4IMH9lh1tX lookup 2-1" uni3049.vert
 Substitution2: "'vert' +fiZm+DBNW1dfYjAQXsNrYjAR lookup 1-1" uni3049.vert
 EndChar
@@ -1192,6 +1191,10 @@ Flags: HM
 LayerCount: 3
 Fore
 SplineSet
+383 548 m 1
+ 384 517 l 1
+ 401 521 411 525 420 532 c 1
+ 383 548 l 1
 324 223 m 25
  266 175 l 25
  325 133 l 25
@@ -1235,7 +1238,6 @@ SplineSet
  194 415 137 451 137 480 c 0
  137 495 142 502 154 502 c 0
 EndSplineSet
-Validated: 1
 Substitution2: "'cv01' Character Variants 01 lookup 5-1" u1B015
 EndChar
 
@@ -2271,7 +2273,6 @@ SplineSet
  705 433 706 405 706 322 c 0
  706 185 664 101 537 2 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni3052
@@ -2434,7 +2435,6 @@ EndSplineSet
 Fore
 Refer: 90 12441 N 1 0 0 1 1020 54 2
 Refer: 20 12369 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni3053
@@ -6641,7 +6641,7 @@ SplineSet
  771 659 796 651 796 647 c 5
 EndSplineSet
 Fore
-Refer: 91 12442 S 1 0 0 1 999 15 2
+Refer: 91 12442 N 1 0 0 1 999 15 2
 Refer: 50 12399 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
@@ -11768,7 +11768,6 @@ Flags: HMW
 LayerCount: 3
 Fore
 Refer: 20 12369 N 0.86 0 0 0.86 70 -20 2
-Validated: 1
 Substitution2: "'vrt2' +fiZm+DBNW1dfYjBoVt6O4m4IMH9lh1tX lookup 2-1" uni3096.vert
 Substitution2: "'vert' +fiZm+DBNW1dfYjAQXsNrYjAR lookup 1-1" uni3096.vert
 EndChar
@@ -116802,7 +116801,6 @@ Flags: HMW
 LayerCount: 3
 Fore
 Refer: 13 12362 N 0.86 0 0 0.86 140 50 2
-Validated: 1
 EndChar
 
 StartChar: uni3063.vert
@@ -117470,7 +117468,6 @@ Flags: HMW
 LayerCount: 3
 Fore
 Refer: 20 12369 N 0.86 0 0 0.86 140 50 2
-Validated: 1
 EndChar
 
 StartChar: uni30A1.vert
