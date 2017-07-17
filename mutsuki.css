@@ -15,7 +15,7 @@ html {
   font-family: "Mutsuki", "Hoefler Text", "Linux Libertine O", "Yu Mincho", serif;
   font-weight: 600;
   font-size: 15pt;
-  text-align: center;
+  text-align: left;
   word-break: keep-all;
   word-wrap: break-word;
   overflow-wrap: break-word;
@@ -27,24 +27,29 @@ html {
 
 body {
   margin: auto;
-  max-width: 24rem;
 }
 
 header {
-  margin: 1rem 0 0;
+  padding: 1rem 1rem 0;
+  margin: 0 0 1rem;
+  max-width: 24rem;
 }
 
 main {
-  margin: 1rem 0;
+  padding: 0 1rem;
+  margin: 1rem 0 1rem;
+  max-width: 24rem;
 }
 
 footer {
-  margin: 0 0 1rem;
+  padding: 0 1rem 1rem;
+  margin: 1rem 0 0;
+  max-width: 24rem;
 }
 
 h1 {
-  font-size: 2em;
-  margin: 0 0 0.5em;
+  font-size: 2rem;
+  margin: 1rem 0 1rem;
   text-transform: uppercase;
 }
 
@@ -58,11 +63,13 @@ h1 ruby > rt {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
+  margin: 1rem 0 1rem;
 }
 
 h3 {
   font-size: 1em;
+  margin: 1rem 0 1rem;
   text-decoration: underline;
 }
 
@@ -75,19 +82,24 @@ p {
   margin: 0;
 }
 
-p + p {
-  margin: 1em 0 0;
+p:lang(ja) {
+  text-indent: 1em;
+}
+
+p:lang(en) {
+  margin-top: 1em;
 }
 
 #altlang {
-  text-align: center;
-  margin: 0.5em;
+  text-align: left;
+  margin: 0;
   padding: 0;
 }
 
-#altlang li {
+#altlang > li {
   display: inline-block;
-  margin: 0 0.5em;
+  margin: 0;
+  margin-right: 1rem;
 }
 
 .alt {
