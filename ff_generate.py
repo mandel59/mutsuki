@@ -18,7 +18,9 @@ import fontforge
 def font_version(date):
     # type: (date) -> str
     u"与えられた日付に生成されるフォントのバージョンを返す"
-    return str(date.year - 2000) + '.' + str((date - datetime.date(date.year, 1, 1)).days)
+    year = date.year - 2000
+    day_of_year = (date - datetime.date(date.year, 1, 1)).days
+    return '%s.%s' % (year, day_of_year)
 
 
 def generate_font(source_path, dest_path):
