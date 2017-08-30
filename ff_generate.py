@@ -1,4 +1,3 @@
-#!/usr/bin/fontforge -lang=py -script
 # -*- coding: utf-8 -*-
 
 u"""
