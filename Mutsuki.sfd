@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1389377225
-ModificationTime: 1552056067
+ModificationTime: 1552059622
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -58,7 +58,7 @@ NameList: Adobe Glyph List
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 594 11 4
+WinInfo: 572 11 4
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -10593,7 +10593,6 @@ EndChar
 StartChar: uni308E
 Encoding: 12430 12430 81
 Width: 1000
-VWidth: 1040
 Flags: HMW
 LayerCount: 3
 Back
@@ -10707,7 +10706,6 @@ EndChar
 StartChar: uni308F
 Encoding: 12431 12431 82
 Width: 1000
-VWidth: 1040
 Flags: HMW
 LayerCount: 3
 Back
@@ -15596,7 +15594,6 @@ EndChar
 StartChar: uni30C3
 Encoding: 12483 12483 130
 Width: 1000
-VWidth: 1010
 Flags: HMW
 LayerCount: 3
 Back
@@ -15672,7 +15669,6 @@ EndChar
 StartChar: uni30C4
 Encoding: 12484 12484 131
 Width: 1000
-VWidth: 1010
 Flags: HMW
 LayerCount: 3
 Back
@@ -15897,7 +15893,6 @@ EndChar
 StartChar: uni30C6
 Encoding: 12486 12486 133
 Width: 1000
-VWidth: 1015
 Flags: HMW
 LayerCount: 3
 Back
@@ -116814,7 +116809,7 @@ SplineSet
  459 201 461 204 462 204 c 5
 EndSplineSet
 Fore
-Refer: 5 12354 N 0.86 0 0 0.86 140 50 2
+Refer: 5 12354 S 0.86 0 0 0.86 140 50 2
 EndChar
 
 StartChar: uni3043.vert
@@ -117372,7 +117367,6 @@ EndChar
 StartChar: uni308E.vert
 Encoding: 1114122 -1 514
 Width: 1000
-VWidth: 1040
 Flags: HMW
 LayerCount: 3
 Back
@@ -117708,8 +117702,7 @@ SplineSet
  670 532 673 530 656 530 c 2
 EndSplineSet
 Fore
-Refer: 97 12450 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 97 12450 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni30A3.vert
@@ -117718,8 +117711,7 @@ Width: 1000
 Flags: HMW
 LayerCount: 3
 Fore
-Refer: 99 12452 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 99 12452 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni30A5.vert
@@ -117801,8 +117793,7 @@ SplineSet
  541 592 552 608 567 608 c 0
 EndSplineSet
 Fore
-Refer: 101 12454 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 101 12454 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni30A7.vert
@@ -117860,8 +117851,7 @@ SplineSet
  419 213 414 217 404 217 c 0
 EndSplineSet
 Fore
-Refer: 103 12456 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 103 12456 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni30A9.vert
@@ -117870,14 +117860,12 @@ Width: 1000
 Flags: HMW
 LayerCount: 3
 Fore
-Refer: 105 12458 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 105 12458 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni30C3.vert
 Encoding: 1114130 -1 522
 Width: 1000
-VWidth: 1010
 Flags: HMW
 LayerCount: 3
 Back
@@ -117945,7 +117933,7 @@ SplineSet
  459 147 460 144 456 144 c 0
 EndSplineSet
 Fore
-Refer: 131 12484 N 0.86 0 0 0.86 140 50 2
+Refer: 131 12484 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni30E3.vert
@@ -117999,8 +117987,7 @@ SplineSet
  653 338 652 351 674 371 c 1
 EndSplineSet
 Fore
-Refer: 163 12516 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 163 12516 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni30E5.vert
@@ -118045,8 +118032,7 @@ SplineSet
  652 355 656 387 656 411 c 0
 EndSplineSet
 Fore
-Refer: 165 12518 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 165 12518 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni30E7.vert
@@ -118101,8 +118087,7 @@ SplineSet
  567 460 505 437 480 437 c 0
 EndSplineSet
 Fore
-Refer: 167 12520 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 167 12520 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni30EE.vert
@@ -118142,8 +118127,7 @@ SplineSet
  715 559 687 579 712 579 c 2
 EndSplineSet
 Fore
-Refer: 174 12527 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 174 12527 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni30F5.vert
@@ -118221,7 +118205,7 @@ SplineSet
  740 399 741 400 742 400 c 1
 EndSplineSet
 Fore
-Refer: 106 12459 N 0.86 0 0 0.86 140 50 2
+Refer: 106 12459 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni30F6.vert
@@ -118278,8 +118262,7 @@ SplineSet
  502 580 509 591 526 591 c 2
 EndSplineSet
 Fore
-Refer: 112 12465 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 112 12465 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni30FC.vert
@@ -118408,8 +118391,7 @@ SplineSet
  783 525 846 484 846 459 c 0
 EndSplineSet
 Fore
-Refer: 110 12463 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 110 12463 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni31F1.vert
@@ -118495,8 +118477,7 @@ SplineSet
  508 447 502 453 502 456 c 9
 EndSplineSet
 Fore
-Refer: 118 12471 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 118 12471 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni31F2.vert
@@ -118556,8 +118537,7 @@ SplineSet
  556 248 523 219 517 219 c 1
 EndSplineSet
 Fore
-Refer: 120 12473 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 120 12473 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni31F3.vert
@@ -118607,8 +118587,7 @@ SplineSet
  683 283 l 2
 EndSplineSet
 Fore
-Refer: 135 12488 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 135 12488 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni31F4.vert
@@ -118657,8 +118636,7 @@ SplineSet
  515 434 483 449 483 471 c 0
 EndSplineSet
 Fore
-Refer: 139 12492 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 139 12492 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni31F5.vert
@@ -118701,8 +118679,7 @@ SplineSet
  736 432 717 441 717 447 c 0
 EndSplineSet
 Fore
-Refer: 142 12495 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 142 12495 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni31F6.vert
@@ -118773,8 +118750,7 @@ SplineSet
  731 459 728 451 732 451 c 1
 EndSplineSet
 Fore
-Refer: 145 12498 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 145 12498 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni31F7.vert
@@ -118824,8 +118800,7 @@ SplineSet
  449 159 434 151 423 151 c 2
 EndSplineSet
 Fore
-Refer: 148 12501 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 148 12501 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni31F8.vert
@@ -118860,8 +118835,7 @@ SplineSet
  569 408 537 418 518 418 c 0
 EndSplineSet
 Fore
-Refer: 151 12504 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 151 12504 S 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni31F9.vert
@@ -118930,8 +118904,7 @@ SplineSet
  578 391 561 393 542 393 c 0
 EndSplineSet
 Fore
-Refer: 154 12507 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 154 12507 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni31FA.vert
@@ -118978,8 +118951,7 @@ SplineSet
  736 175 732 235 710 235 c 0
 EndSplineSet
 Fore
-Refer: 159 12512 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 159 12512 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni31FB.vert
@@ -119038,8 +119010,7 @@ SplineSet
  661 533 570 522 569 522 c 2
 EndSplineSet
 Fore
-Refer: 168 12521 S 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 168 12521 S 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni31FC.vert
@@ -119086,7 +119057,7 @@ SplineSet
  492 98 489 98 485 98 c 0
 EndSplineSet
 Fore
-Refer: 169 12522 N 0.86 0 0 0.86 140 50 2
+Refer: 169 12522 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni31FD.vert
@@ -119135,8 +119106,7 @@ SplineSet
  577 266 577 267 577 268 c 0
 EndSplineSet
 Fore
-Refer: 170 12523 N 0.86 0 0 0.86 140 50 2
-Validated: 1
+Refer: 170 12523 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni31FE.vert
@@ -119174,7 +119144,7 @@ SplineSet
  478 275 594 328 594 331 c 1
 EndSplineSet
 Fore
-Refer: 171 12524 N 0.86 0 0 0.86 140 50 2
+Refer: 171 12524 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni31FF.vert
@@ -119223,7 +119193,7 @@ SplineSet
  679 303 691 357 691 379 c 2
 EndSplineSet
 Fore
-Refer: 172 12525 N 0.86 0 0 0.86 140 50 2
+Refer: 172 12525 N 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: uni3AC4
@@ -121451,7 +121421,6 @@ EndChar
 StartChar: u1B001
 Encoding: 110593 110593 583
 Width: 1000
-VWidth: 0
 Flags: HMW
 LayerCount: 3
 Back
@@ -122648,7 +122617,6 @@ EndChar
 StartChar: uni3001
 Encoding: 12289 12289 594
 Width: 1000
-VWidth: 0
 Flags: HM
 LayerCount: 3
 Fore
@@ -122668,7 +122636,6 @@ EndChar
 StartChar: uni3002
 Encoding: 12290 12290 595
 Width: 1000
-VWidth: 0
 Flags: HMW
 LayerCount: 3
 Fore
@@ -124523,8 +124490,7 @@ EndChar
 
 StartChar: uni200A
 Encoding: 8202 8202 613
-Width: 125
-VWidth: 0
+Width: 1000
 Flags: HW
 LayerCount: 3
 Fore
@@ -124534,7 +124500,6 @@ EndChar
 StartChar: uni5348
 Encoding: 21320 21320 614
 Width: 1000
-VWidth: 0
 Flags: HW
 LayerCount: 3
 Back
@@ -124756,7 +124721,6 @@ EndChar
 StartChar: u1B165
 Encoding: 110949 110949 620
 Width: 1000
-VWidth: 889
 Flags: HW
 LayerCount: 3
 Fore
@@ -124767,7 +124731,6 @@ EndChar
 StartChar: u1B166
 Encoding: 110950 110950 621
 Width: 1000
-VWidth: 890
 Flags: HW
 LayerCount: 3
 Fore
@@ -124777,8 +124740,7 @@ EndChar
 
 StartChar: u1B167
 Encoding: 110951 110951 622
-Width: 1002
-VWidth: 891
+Width: 1000
 Flags: HW
 LayerCount: 3
 Fore
@@ -124788,8 +124750,7 @@ EndChar
 
 StartChar: u1B150.vert
 Encoding: 1114159 -1 623
-Width: 1070
-VWidth: 1070
+Width: 1000
 Flags: HW
 LayerCount: 3
 Fore
@@ -124798,8 +124759,7 @@ EndChar
 
 StartChar: u1B151.vert
 Encoding: 1114160 -1 624
-Width: 1070
-VWidth: 1070
+Width: 1000
 Flags: HW
 LayerCount: 3
 Fore
@@ -124808,8 +124768,7 @@ EndChar
 
 StartChar: u1B152.vert
 Encoding: 1114161 -1 625
-Width: 1070
-VWidth: 1070
+Width: 1000
 Flags: HW
 LayerCount: 3
 Fore
@@ -124818,42 +124777,38 @@ EndChar
 
 StartChar: u1B164.vert
 Encoding: 1114162 -1 626
-Width: 1070
-VWidth: 1070
+Width: 1000
 Flags: HW
 LayerCount: 3
 Fore
-Refer: 175 12528 S 0.86 0 0 0.86 140 50 2
+Refer: 175 12528 S 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: u1B165.vert
 Encoding: 1114163 -1 627
-Width: 1070
-VWidth: 959
+Width: 1000
 Flags: HW
 LayerCount: 3
 Fore
-Refer: 176 12529 S 0.86 0 0 0.86 140 50 2
+Refer: 176 12529 S 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: u1B166.vert
 Encoding: 1114164 -1 628
-Width: 1070
-VWidth: 960
+Width: 1000
 Flags: HW
 LayerCount: 3
 Fore
-Refer: 177 12530 S 0.86 0 0 0.86 140 50 2
+Refer: 177 12530 S 0.86 0 0 0.86 210 160 2
 EndChar
 
 StartChar: u1B167.vert
 Encoding: 1114165 -1 629
-Width: 1072
-VWidth: 961
+Width: 1000
 Flags: HW
 LayerCount: 3
 Fore
-Refer: 178 12531 N 0.86 0 0 0.86 140 50 2
+Refer: 178 12531 N 0.86 0 0 0.86 210 160 2
 EndChar
 EndChars
 EndSplineFont
