@@ -50,7 +50,6 @@ footer {
 h1 {
   font-size: 2rem;
   margin: 1rem 0 1rem;
-  text-align: center;
   text-transform: uppercase;
 }
 
@@ -66,13 +65,11 @@ h1 ruby > rt {
 h2 {
   font-size: 1.5rem;
   margin: 1rem 0 1rem;
-  text-align: center;
 }
 
 h3 {
   font-size: 1em;
   margin: 1rem 0 1rem;
-  text-align: center;
   text-decoration: underline;
 }
 
