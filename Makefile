@@ -1,11 +1,12 @@
-all: Mutsuki.ttf Mutsuki.woff Mutsuki.woff2
+all: mutsuki kana
 
+mutsuki: Mutsuki.ttf Mutsuki.woff Mutsuki.woff2
 kana: Mutsuki-kana.ttf Mutsuki-kana.woff Mutsuki-kana.woff2
 
 clean:
 	rm -f Mutsuki.ttf Mutsuki.woff Mutsuki.woff2
 
-.PHONY: all clean
+.PHONY: all mutsuki kana clean
 
 Mutsuki.ttf: Mutsuki.sfd ff_generate.py LICENSE LICENSE.ja
 	fontforge -lang=py -script ff_generate.py Mutsuki.sfd $@
