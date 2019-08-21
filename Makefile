@@ -1,7 +1,7 @@
 all: mutsuki kana
 
-mutsuki: Mutsuki.ttf Mutsuki.woff Mutsuki.woff2
-kana: Mutsuki-kana.ttf Mutsuki-kana.woff Mutsuki-kana.woff2
+mutsuki: Mutsuki.ttf Mutsuki.ttf.zip Mutsuki.woff Mutsuki.woff2
+kana: Mutsuki-kana.ttf Mutsuki-kana.ttf.zip Mutsuki-kana.woff Mutsuki-kana.woff2
 
 clean:
 	rm -f Mutsuki.ttf Mutsuki.woff Mutsuki.woff2
@@ -10,6 +10,9 @@ clean:
 
 Mutsuki.ttf: Mutsuki.sfd ff_generate.py LICENSE LICENSE.ja
 	fontforge -lang=py -script ff_generate.py Mutsuki.sfd $@
+
+Mutsuki.ttf.zip: Mutsuki.ttf
+	zip $@ Mutsuki.ttf
 
 Mutsuki.woff: Mutsuki.sfd ff_generate.py LICENSE LICENSE.ja
 	fontforge -lang=py -script ff_generate.py Mutsuki.sfd $@
@@ -22,6 +25,9 @@ Mutsuki-kana.sfd: Mutsuki.sfd mutsuki-kana.pl
 
 Mutsuki-kana.ttf: Mutsuki-kana.sfd ff_generate.py LICENSE LICENSE.ja
 	fontforge -lang=py -script ff_generate.py Mutsuki-kana.sfd $@
+
+Mutsuki-kana.ttf.zip: Mutsuki.ttf
+	zip $@ Mutsuki-kana.ttf
 
 Mutsuki-kana.woff: Mutsuki-kana.sfd ff_generate.py LICENSE LICENSE.ja
 	fontforge -lang=py -script ff_generate.py Mutsuki-kana.sfd $@
