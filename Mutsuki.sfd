@@ -48,7 +48,7 @@ Lookup: 1 0 0 "'vert' +fiZm+DBNW1dfYjAQXsNrYjAR lookup 1" { "'vert' +fiZm+DBNW1d
 Lookup: 1 0 0 "'vrt2' +fiZm+DBNW1dfYjBoVt6O4m4IMH9lh1tX lookup 2" { "'vrt2' +fiZm+DBNW1dfYjBoVt6O4m4IMH9lh1tX lookup 2-1" ("vert") } ['vrt2' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hani' <'JAN ' 'dflt' > 'kana' <'JAN ' 'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "Mutsuki" "Meduim"
+LangName: 1033 "Copyright (c) 2008-2011 Gutenberg Labo.+AAoA-Copyright (c) 2012 Ryusei Yamaguchi." "Mutsuki" "Regular" "" "" "" "" "" "" "" "" "" "" "" "" "" "Mutsuki" "Medium"
 LangName: 1041 "Copyright (c) 2008-2011 Gutenberg Labo.+AAoA-Copyright (c) 2012 Ryusei Yamaguchi." "+MIAwZDBN" "Regular" "" "+MIAwZDBN" "" "" "" "" "" "" "" "" "" "" "" "+MIAwZDBN" "Medium"
 GaspTable: 2 128 10 65535 0 1
 Encoding: UnicodeFull
